@@ -1,11 +1,19 @@
-const theInput = document.getElementById("colorfav");
+const color1 = document.getElementById("color1");
+const color2 = document.getElementById("color2");
+const gradientLabel = document.getElementById("linear-gradient-label");
 
-theInput.addEventListener("input", function(){
-  const theColor = theInput.value;
+color1.addEventListener("input", function () {
+	const theColor = color1.value;
+	const otherColor = color2.value;
 
-  console.log(theColor);
+	document.body.style.backgroundImage = `linear-gradient(to right, ${theColor}, ${otherColor})`;
+	gradientLabel.innerHTML = `linear-gradient(to right, ${theColor}, ${otherColor})`;
+}, false);
 
-  document.body.style.background = theColor;
-  
-  // Do something with `theColor` here.
+color2.addEventListener("input", function () {
+	const theColor = color1.value;
+	const otherColor = color2.value;
+
+	document.body.style.backgroundImage = `linear-gradient(to right, ${theColor}, ${otherColor})`;
+	gradientLabel.innerHTML = `linear-gradient(to right, ${theColor}, ${otherColor})`;
 }, false);
