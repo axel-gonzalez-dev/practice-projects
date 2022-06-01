@@ -18,19 +18,20 @@
 			<h1>Background color generator</h1>
 
 			<section id="color-buttons-container" class="color-buttons-container">
-				<input id="color1" type="color" value="#8EC5FC"></input>
-				<input id="color2" type="color" value="#E0C3FC"></input>
+				<input id="color1" class="input-color" type="color" value="#8EC5FC"></input>
+				<input id="color2" class="input-color" type="color" value="#E0C3FC"></input>
 			</section>
 
 			<section class="color-labels" id="color-labels">
-				<p>Current CSS Background:</p>
-				<p>Linear gradient: <span id="linear-gradient-label">linear-gradient(to right, #8EC5FC, #E0C3FC)</span>
-				</p>
+				<p class="linear-gradient-title">Linear gradient code: </p>
+				<pre>
+					<code id="linear-gradient-label">background-image: linear-gradient(to right, #8ec5fc, #e0c3fc);</code>
+				</pre>
 			</section>
 		</main>
 
 		<footer id="footer" class="footer">
-			<p>Created with ❤️ by <a href="https://axel-gonzalez-dev.github.io" target="_blank">Axel González</a></p>
+			<p class="footer-text">Created with ❤️ by <a href="https://axel-gonzalez-dev.github.io" target="_blank">Axel González</a></p>
 		</footer>
 	</div>
 

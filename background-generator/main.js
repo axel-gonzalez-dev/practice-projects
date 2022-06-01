@@ -7,7 +7,7 @@ color1.addEventListener("input", function () {
 	const otherColor = color2.value;
 
 	document.body.style.backgroundImage = `linear-gradient(to right, ${theColor}, ${otherColor})`;
-	gradientLabel.innerHTML = `linear-gradient(to right, ${theColor}, ${otherColor})`;
+	gradientLabel.innerHTML = `background-image: linear-gradient(to right, ${theColor}, ${otherColor})`;
 }, false);
 
 color2.addEventListener("input", function () {
@@ -15,5 +15,5 @@ color2.addEventListener("input", function () {
 	const otherColor = color2.value;
 
 	document.body.style.backgroundImage = `linear-gradient(to right, ${theColor}, ${otherColor})`;
-	gradientLabel.innerHTML = `linear-gradient(to right, ${theColor}, ${otherColor})`;
+	gradientLabel.innerHTML = `background-image: linear-gradient(to right, ${theColor}, ${otherColor})`;
 }, false);
