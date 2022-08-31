@@ -1,0 +1,39 @@
+:root {
+    --eerie-black: #161616ff;
+    --eerie-black-2: #232323ff;
+    --baby-powder: #F8F9F3ff;
+    --silver-sand: #C1C2C4ff;
+    --maximum-yellow-red: #F4C374ff;
+}
+
+.navbar {
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+    min-height: 5rem;
+    background-color: var(--eerie-black);
+    color: var(--baby-powder);
+}
+
+.sections-container {
+    min-width: 50%;
+
+}
+
+.sections {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sections a {
+    color: var(--baby-powder);
+
+}
+
+.sections a:hover {
+    color: var(--maximum-yellow-red);
+    text-decoration: underline;
+}
