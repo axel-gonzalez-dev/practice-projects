@@ -10,6 +10,14 @@ function App() {
   return (
     <>
       < Navbar />
+
+      <main>
+
+    <section className='hero'>
+
+    </section>
+
+      </main>
     </>
   )
 }
