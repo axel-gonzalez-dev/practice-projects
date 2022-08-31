@@ -1,0 +1,9 @@
+@import './sass/variables.scss';
+
+.hero {
+    background-image: url('./assets/restaurant-background.jpg');
+    background-color: $eerie-black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
