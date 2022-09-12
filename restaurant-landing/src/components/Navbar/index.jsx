@@ -8,6 +8,7 @@ const Navbar = () => {
 
             <nav className="navbar">
                 <a href="#" className='navbar-logo'>Logo</a>
+                <button className='navbar-toggle'>Abrir</button>
                 <div className="sections-container">
                     <ul className='sections'>
                         <li><a href="#"> Home</a></li>

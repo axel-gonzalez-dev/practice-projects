@@ -1,4 +1,7 @@
 @import './sass/variables.scss';
+body{
+    background-color: $baby-powder;
+}
 
 .hero {
     background-image: url('./assets/restaurant-background.jpg');

@@ -7,7 +7,7 @@
     align-items: center;
     z-index: 2;
     min-height: 4rem;
-    background-color: $eerie-black;
+    background-color: rgba(0, 0, 0, 0.5);
     color: $baby-powder;
 }
 
@@ -42,4 +42,10 @@
 .sections a:hover {
     color: $maximum-yellow-red;
     text-decoration: underline;
+}
+
+@media (min-width: $sm) {
+    body {
+        background-color: red;
+    }
 }

@@ -3,3 +3,11 @@ $eerie-black-2: #232323ff;
 $baby-powder: #F8F9F3ff;
 $silver-sand: #C1C2C4ff;
 $maximum-yellow-red: #F4C374ff;
+
+// Breakpoints
+$sm: 640px;
+$md: 768px;
+$lg: 1024px;
+$xl: 1280px;
+$xl2: 1536px;
+// => @media (min-width: 1536px) { ... }
