@@ -35,23 +35,20 @@ const Produts = () => {
 
     return (
         <>
-            <main>
-                
-            <h1>Products</h1>
+            <main className=''>
 
-                <div className='grid grid-cols-3 gap-4'>
+                <section id='hero' className='bg-hero bg-cover | min-h-[40vh] | p-4 | flex items-end'>
+                    <p className='text-white font-semibold | align-bottom'>New Essential Tees</p>
+                </section>
 
-                    {products?.map((product, index) => (
-                        <Card key={product?.id} image={product?.image} title={product?.title} description={product?.description}/>
+                <div className='grid grid-cols-responsive gap-4 justify-items-stretch | pt-4 |'>
+                    {products?.map(product => (
+                        <Card key={product?.id} image={product?.image} title={product?.title} description={product?.description} price={product?.price} />
                     ))}
-
                 </div>
-
             </main>
-
         </>
     );
-
 };
 
 export default Produts;

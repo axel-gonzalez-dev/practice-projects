@@ -8,6 +8,12 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'hero': "url('/cover-shirts.jpg')",
+      },
+      gridTemplateColumns: {
+        'responsive': 'repeat(auto-fill, minmax(300px, 1fr))'
+      }
     },
   },
   plugins: [],
