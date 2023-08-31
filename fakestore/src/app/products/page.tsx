@@ -41,7 +41,7 @@ const Produts = () => {
                     <p className='text-white font-semibold | align-bottom'>New Essential Tees</p>
                 </section>
 
-                <div className='grid grid-cols-responsive gap-4 justify-items-stretch | pt-4 |'>
+                <div className='grid grid-cols-responsive gap-4 | pt-4 |'>
                     {products?.map(product => (
                         <Card key={product?.id} image={product?.image} title={product?.title} description={product?.description} price={product?.price} />
                     ))}
